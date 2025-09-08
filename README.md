@@ -101,9 +101,43 @@
     └── 手势映射配置
 ```
 
+## 📁 项目结构
+
+```
+MiHome-Control-Hub/
+├── main_app.py                    # 主应用程序入口
+├── device_controller.py           # 设备控制核心模块
+├── gesture_recognition.py         # 手势识别系统
+├── config_manager.py              # 配置管理器
+├── token_extractor.py             # 小米云服务认证模块
+├── xiaomi_device_extractor_gui.py # 设备发现GUI工具
+├── integrated_app_with_token_extractor.py # 集成应用
+├── setup.py                       # 自动化安装脚本
+├── requirements.txt               # Python依赖列表
+├── config.yaml                    # 配置文件（运行后生成）
+├── README.md                      # 项目说明文档
+├── CHANGELOG.md                   # 版本更新日志
+├── CONTRIBUTING.md                # 贡献指南
+├── LICENSE                        # 开源许可证
+└── .gitignore                     # Git忽略文件配置
+```
+
+### 核心文件说明
+- **setup.py**: 一键安装脚本，自动检查环境、安装依赖、创建配置模板
+- **CHANGELOG.md**: 详细记录每个版本的功能更新、性能优化和问题修复
+- **CONTRIBUTING.md**: 开发者贡献指南，包含代码规范和提交流程
+- **token_extractor.py**: 来自开源社区的小米云服务认证工具
+
 ## 安装与使用
 
-### 环境要求
+### 快速开始（推荐）
+```bash
+# 使用自动化安装脚本
+python setup.py
+```
+
+### 手动安装
+#### 环境要求
 - Python 3.8+
 - 摄像头设备
 - 米家设备（支持局域网控制）
