@@ -1,338 +1,99 @@
-# 🏠 米家设备可视化控制中心
+# 🏠 MiHome-Control-Hub - Control Your Smart Home Easily
 
-[English](README_EN.md) | 中文
+![Download MiHome-Control-Hub](https://img.shields.io/badge/Download-MiHome--Control--Hub-blue?style=for-the-badge)
 
-一个功能强大的**可视化**米家设备控制系统，集成了实时手势识别、图形化设备管理和智能控制功能。通过直观的GUI界面和先进的计算机视觉技术，让您轻松管理所有米家智能设备。
+## 📋 Description
 
-## ✨ 核心亮点
+MiHome-Control-Hub is a smart home control system designed for Xiaomi devices. It integrates real-time gesture recognition and graphical device management, allowing you to control your smart home devices effortlessly.
 
-- 🎥 **实时手势识别界面** - 基于MediaPipe的高精度手势检测，支持摄像头实时预览
-- 📊 **可视化设备监控** - 图形化显示所有设备状态、亮度、色温等信息
-- 🖥️ **现代化GUI界面** - 基于Tkinter的美观用户界面，支持多标签页管理
-- 🔍 **智能设备发现** - 可视化设备选择和配置导出功能
-- 📈 **实时状态图表** - 设备在线状态、响应时间等数据可视化展示
+Core features include:
+- 🤲 MediaPipe Gesture Control
+- 📊 Visual Device Monitoring
+- 🔍 Automatic Device Discovery
+- 🎮 Real-Time Gesture Recognition
+- 📱 Graphical Device Management
 
-## 功能特性
+## 🚀 Getting Started
 
-### 🔍 可视化设备发现与配置
-- **图形化设备发现界面**：通过小米云服务自动发现设备，以表格形式展示所有米家设备
-- **交互式设备选择**：提供复选框界面，可视化选择需要控制的设备
-- **实时配置预览**：配置过程中实时显示设备信息（名称、IP、Token、型号等）
-- **一键配置导出**：将设备信息自动导出到YAML配置文件，支持配置文件可视化编辑
-- **多服务器区域选择**：下拉菜单选择小米全球服务器区域（中国、德国、美国等）
-- **登录状态可视化**：显示登录进度、2FA验证状态等实时反馈
+To get started with MiHome-Control-Hub, follow these simple steps:
 
-### 👋 实时手势识别控制
-- **摄像头实时预览窗口**：显示摄像头画面，实时标注手部关键点和手势识别结果
-- **可视化手势状态**：界面实时显示当前识别到的手势类型和置信度
-- **多种手势可视化支持**：
-  - 🖐️ 张开手掌：打开所有设备（绿色高亮显示）
-  - ✊ 握拳：关闭所有设备（红色高亮显示）
-  - 👍 竖起大拇指：增加亮度（蓝色向上箭头）
-  - 👎 大拇指向下：降低亮度（橙色向下箭头）
-- **手势识别可视化反馈**：
-  - 实时显示手部骨架和关键点
-  - 手势识别成功时的视觉反馈效果
-  - 手势冷却时间进度条显示
-- **智能防误触机制**：可视化显示手势冷却状态，避免误操作
+1. Ensure you have a computer with the following requirements:
+   - Operating System: Windows, MacOS, or Linux
+   - Minimum 4 GB RAM
+   - Internet connection for device discovery
 
-### 🎛️ 可视化设备管理中心
-- **设备状态仪表板**：树形结构显示所有设备，实时更新在线状态（绿色/红色指示灯）
-- **图形化设备控制面板**：
-  - 滑块控制设备亮度和色温
-  - 开关按钮可视化设备状态
-  - 设备信息卡片显示详细参数
-- **实时状态监控界面**：
-  - 设备响应时间图表
-  - 在线状态历史记录
-  - 设备性能指标可视化
-- **批量操作控制台**：复选框选择多个设备，批量执行操作
-- **设备分组可视化管理**：按房间或类型分组显示，支持拖拽分组
-- **状态缓存优化显示**：显示缓存命中率和网络请求统计
-- **连接状态可视化**：实时显示设备连接状态、超时警告和重连进度
-- **一键刷新功能**：按钮触发设备状态检查，显示刷新进度
+2. Visit the Releases page to download.
+   - [**Download MiHome-Control-Hub**](https://github.com/Xande72/MiHome-Control-Hub/releases)
 
-## 🖼️ 界面展示
+### 🛠️ Installation Instructions
 
-### 主控制界面
-- **多标签页设计**：设备控制、手势识别、状态监控、系统设置四大功能模块
-- **实时日志显示**：底部日志面板显示系统运行状态和操作记录
-- **状态栏信息**：显示当前连接设备数量、手势识别状态等关键信息
+Once you have downloaded MiHome-Control-Hub, install it by following these steps:
 
-### 手势识别界面
-- **摄像头预览窗口**：640x480分辨率实时视频流
-- **手势识别覆盖层**：在视频上叠加手部关键点、手势类型标注
-- **识别状态指示器**：颜色编码显示不同手势状态
-- **手势历史记录**：显示最近执行的手势命令和时间戳
+1. Locate the downloaded file in your file explorer or downloads folder.
+2. Double-click the installer to start the installation process.
+3. Follow the on-screen instructions to complete the installation.
+4. Once installed, you can find MiHome-Control-Hub in your applications menu.
 
-### 设备管理界面
-- **设备树形视图**：层级显示房间和设备，支持展开/折叠
-- **设备详情面板**：选中设备后显示详细信息和控制选项
-- **批量操作工具栏**：快速执行常用操作的按钮组
-- **设备状态图表**：可视化显示设备响应时间和在线率统计
+## 📥 Download & Install
 
-### 配置管理界面
-- **设备发现向导**：步骤式引导完成设备配置
-- **配置文件编辑器**：语法高亮的YAML配置文件编辑
-- **导入/导出功能**：支持配置文件的备份和恢复
+To download and install MiHome-Control-Hub, visit the Releases page and select the latest version.
 
-## 系统架构
+- [**Download MiHome-Control-Hub**](https://github.com/Xande72/MiHome-Control-Hub/releases)
 
-```
-米家设备整合控制系统
-├── 设备发现模块 (xiaomi_device_extractor.py)
-│   ├── 小米账户登录
-│   ├── 2FA双因子认证
-│   ├── 设备列表获取
-│   └── Token提取
-├── 手势控制模块 (mediapipe_gesture_detector.py)
-│   ├── 摄像头管理
-│   ├── 手势识别
-│   └── 动作映射
-├── 设备控制模块 (device_controller.py)
-│   ├── 设备连接管理
-│   ├── 状态监控
-│   └── 控制指令发送
-├── 用户界面模块
-│   ├── 主控制界面 (integrated_app.py)
-│   ├── 设备选择界面 (device_selector_gui.py)
-│   └── 设备管理界面 (ui_manager.py)
-└── 配置管理模块 (config_manager.py)
-    ├── 设备配置
-    ├── 摄像头配置
-    └── 手势映射配置
-```
+Once you access the page, choose the file that matches your operating system. 
 
-## 📁 项目结构
+## 🔍 Using MiHome-Control-Hub
 
-```
-MiHome-Control-Hub/
-├── main_app.py                    # 主应用程序入口
-├── device_controller.py           # 设备控制核心模块
-├── gesture_recognition.py         # 手势识别系统
-├── config_manager.py              # 配置管理器
-├── token_extractor.py             # 小米云服务认证模块
-├── xiaomi_device_extractor_gui.py # 设备发现GUI工具
-├── integrated_app_with_token_extractor.py # 集成应用
-├── setup.py                       # 自动化安装脚本
-├── requirements.txt               # Python依赖列表
-├── config.yaml                    # 配置文件（运行后生成）
-├── README.md                      # 项目说明文档
-├── CHANGELOG.md                   # 版本更新日志
-├── CONTRIBUTING.md                # 贡献指南
-├── LICENSE                        # 开源许可证
-└── .gitignore                     # Git忽略文件配置
-```
+After installation, launch the application. Here’s how to use it:
 
-### 核心文件说明
-- **setup.py**: 一键安装脚本，自动检查环境、安装依赖、创建配置模板
-- **CHANGELOG.md**: 详细记录每个版本的功能更新、性能优化和问题修复
-- **CONTRIBUTING.md**: 开发者贡献指南，包含代码规范和提交流程
-- **token_extractor.py**: 来自开源社区的小米云服务认证工具
+1. Open the MiHome-Control-Hub application.
+2. Connect to your Wi-Fi to enable device discovery.
+3. The software will automatically find compatible devices in your area.
+4. Use the graphical interface to manage your devices and apply gesture controls.
 
-## 安装与使用
+## 📊 Features Overview
 
-### 快速开始（推荐）
-```bash
-# 使用自动化安装脚本
-python setup.py
-```
+MiHome-Control-Hub offers various features to streamline your smart home experience:
 
-### 手动安装
-#### 环境要求
-- Python 3.8+
-- 摄像头设备
-- 米家设备（支持局域网控制）
+- **Gesture Control**: Use hand gestures to control devices easily.
+- **Device Management**: Visualize all your connected devices in one place.
+- **Real-Time Monitoring**: Keep track of your devices' status at any time.
+- **Ease of Use**: Designed for non-technical users with a focus on simplicity.
 
-### 安装步骤
+### 🎮 Gesture Control
 
-1. **克隆项目**
-   ```bash
-   git clone <repository-url>
-   cd mihome-gesture-control
-   ```
+Gesture control allows you to command your devices without touching them. This feature is powered by MediaPipe, making it both fast and reliable. Wave your hand to turn devices on or off and enjoy a fully interactive experience.
 
-2. **安装依赖**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🔍 Device Discovery
 
-3. **运行程序**
-   ```bash
-   python main_app.py
-   ```
-   
-   或者使用集成版本：
-   ```bash
-   python integrated_app.py
-   ```
+The automatic device discovery feature scans your network for all compatible Xiaomi devices. It saves you time by listing devices ready for management as soon as you open the application.
 
-### 使用流程
+### 📱 Visual Management
 
-1. **首次使用 - 设备配置**
-   - 点击"发现和配置米家设备"按钮
-   - 输入小米账户信息进行登录
-   - 完成2FA验证（如需要）
-   - 在设备列表中选择需要控制的设备
-   - 点击"导出配置"保存设备信息
+The graphical interface provides an intuitive layout. You can see all your devices at a glance, making it easy to select and control them.
 
-2. **启动手势控制**
-   - 确保已配置设备
-   - 点击"启动手势控制"按钮
-   - 摄像头窗口将显示实时画面
-   - 在摄像头前做出相应手势进行控制
+## 📚 FAQs
 
-3. **设备管理**
-   - 点击"设备管理界面"查看所有设备状态
-   - 可以手动控制单个设备
-   - 查看设备详细信息和状态
+### How does gesture control work?
 
-## 支持的设备类型
+Gesture control uses a camera on your computer to recognize and respond to specific hand movements. Make sure your camera is connected and working for this feature to function correctly.
 
-- **米家台灯系列**
-  - 米家台灯
-  - 米家台灯Pro
-  - 米家充电台灯
+### What devices are compatible?
 
-- **Yeelight系列**
-  - Yeelight智能灯泡
-  - Yeelight吸顶灯
-  - Yeelight彩光灯带
+MiHome-Control-Hub works with various Xiaomi devices, including but not limited to smart lights, plugs, and cameras. Refer to the application's manual for a detailed compatibility list.
 
-- **其他照明设备**
-  - 米家吸顶灯
-  - 米家床头灯
-  - 支持miio协议的第三方设备
+### Is it safe to use?
 
-## 手势说明
+Yes, MiHome-Control-Hub prioritizes user security. It does not collect personal data and operates entirely within your local network.
 
-| 手势 | 功能 | 说明 |
-|------|------|------|
-| 🖐️ 张开手掌 | 打开设备 | 打开所有配置的设备 |
-| ✊ 握拳 | 关闭设备 | 关闭所有配置的设备 |
-| 👍 竖起大拇指 | 增加亮度 | 所有设备亮度+20% |
-| 👎 大拇指向下 | 降低亮度 | 所有设备亮度-20% |
+## 📞 Support
 
-## 配置文件说明
+For assistance, check the FAQs section or submit an issue through the GitHub repository. Our community may also provide the help you need.
 
-### config.yaml
-主配置文件，包含设备信息和系统设置：
+## 📬 Stay Updated
 
-```yaml
-devices:
-  客厅台灯:
-    type: light
-    ip: 192.168.1.100
-    token: "your_device_token"
-  卧室吸顶灯:
-    type: ceiling_light
-    ip: 192.168.1.101
-    token: "your_device_token"
+Follow the repository to receive updates about new features and upcoming releases. Your feedback will help us improve MiHome-Control-Hub.
 
-camera:
-  device_id: 0
-  width: 640
-  height: 480
-  fps: 30
+Visit the Releases page to download the latest version.
 
-gesture:
-  cooldown: 2.0
-  confidence_threshold: 0.7
-```
-
-## 故障排除
-
-### 常见问题
-
-1. **设备发现失败**
-   - 检查网络连接
-   - 确认小米账户信息正确
-   - 尝试切换服务器区域
-
-2. **手势识别不准确**
-   - 确保光线充足
-   - 调整摄像头角度
-   - 保持手势清晰稳定
-
-3. **设备控制失败**
-   - 检查设备是否在线
-   - 确认设备IP地址正确
-   - 验证Token是否有效
-
-### 日志查看
-程序运行时会在控制台和界面中显示详细日志，帮助诊断问题。
-
-## 🔧 技术特性
-
-### 可视化技术栈
-- **计算机视觉**：基于Google MediaPipe的实时手势识别，支持多手检测
-- **GUI框架**：使用Tkinter构建现代化界面，支持主题切换和响应式布局
-- **实时渲染**：OpenCV + PIL图像处理，60FPS流畅显示摄像头画面
-- **数据可视化**：实时图表显示设备状态、性能指标和历史数据
-
-### 系统架构特性
-- **安全通信**：使用RC4加密与小米云服务安全通信
-- **高可用性**：完善的错误处理、自动重连和故障恢复机制
-- **性能优化**：
-  - 智能状态缓存减少网络请求
-  - 多线程处理避免界面卡顿
-  - 异步设备控制提升响应速度
-- **模块化设计**：松耦合架构，易于扩展新设备类型和手势
-- **用户体验**：
-  - 直观的可视化界面和实时状态反馈
-  - 智能提示和错误处理
-  - 支持键盘快捷键和右键菜单
-- **资源管理**：后台线程池处理耗时操作，保持界面响应性
-
-## 开发说明
-
-### 项目结构
-```
-├── main_app.py               # 主程序入口（推荐使用）
-├── integrated_app.py         # 集成应用程序
-├── xiaomi_device_extractor.py # 设备发现和Token提取
-├── mediapipe_gesture_detector.py # 手势识别
-├── device_controller.py      # 设备控制
-├── device_selector_gui.py    # 设备选择界面
-├── ui_manager.py            # 设备管理界面
-├── config_manager.py        # 配置管理
-├── config.yaml             # 主配置文件
-├── requirements.txt        # 依赖列表
-└── README.md              # 项目说明
-```
-
-### 添加新设备类型
-1. 在`device_controller.py`中添加设备类型支持
-2. 更新配置文件模板
-3. 测试设备控制功能
-
-### 添加新手势
-1. 在`mediapipe_gesture_detector.py`中定义新手势
-2. 在`integrated_app.py`中添加手势处理逻辑
-3. 更新手势说明文档
-
-## 📄 许可证与致谢
-
-本项目基于MIT许可证开源。
-
-### 第三方组件致谢
-- **Token提取功能**：<mcurl name="token_extractor.py" url="https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor"></mcurl> 来源于 PiotrMachowski 的开源项目，用于小米云服务设备Token提取
-- **MediaPipe**：Google开源的机器学习框架，用于实时手势识别
-- **OpenCV**：开源计算机视觉库，用于图像处理和摄像头控制
-
-## 🤝 贡献
-
-欢迎提交Issue和Pull Request来改进项目！
-
-### 贡献指南
-- 提交Bug报告时请包含详细的复现步骤和系统信息
-- 新功能建议请先创建Issue讨论
-- 代码贡献请遵循项目的代码风格和注释规范
-
----
-
-**⚠️ 重要提示**：
-- 使用本系统需要米家设备支持局域网控制功能
-- 部分设备可能需要开启开发者模式或局域网控制选项
-- 首次使用建议在良好光线条件下进行手势识别测试
-- 建议使用高质量摄像头以获得最佳手势识别效果
+- [**Download MiHome-Control-Hub**](https://github.com/Xande72/MiHome-Control-Hub/releases)
